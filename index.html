@@ -10,16 +10,16 @@
 <body>
     <h1 class="background"></h1>
     <div class="circle">
-        <img  class="image-circle" src="image/33406d410ea5deee01125efaf775f40c.jpg"/>
+        <img id="Avatar" class="image-circle" src="image/33406d410ea5deee01125efaf775f40c.jpg"/>
         <div>
             <img class="logo-circle" src="image/205f94246202c45705022042c3bb2dc0.jpg">
         </div>
     </div>
 
     
-    <div style="display: flex; flex-direction: column;  align-items: end; justify-content: center; margin-right: 42rem; margin-top: 24rem;">
+    <div style="display: flex; flex-direction: column;  align-items: end; justify-content: center; margin-right: 20rem; margin-top: 12rem;">
 
-        <div style="display: flex; flex-direction: column; align-items:center;">
+        <div style="display: flex; flex-direction: column; align-items:center; justify-content: center;">
         <h1 id="Username-form" style=" font-size: 4.6rem; margin-bottom: 1rem;">PHIL Janet anderson</h1>
         <p style="font-size: 3.5rem; margin-bottom: 2rem; font-weight: 600;">sales Representative</p>
     </div>
@@ -28,23 +28,23 @@
 
             <div class="underline-border" style="margin-bottom: 1rem; display: flex; align-items: center;" >
                 <img style="width:34px; height:34px" src="image/phone.png">
-<input  style="border: none; width: 90%;" type="tel" placeholder="+123-456-789" required >
+<input  style="border: none; width: 90%;" type="tel" placeholder="+123-456-789"  >
 </div>
 
 <div class="underline-border" style="margin-bottom: 1rem; display: flex; align-items: center;" >
     <img style="width:34px; height:34px" src="image/email.png">
-<input style="border: none; width: 90%;" type="email" placeholder="Hello@reallygreatsite.com" required>
+<input style="border: none; width: 90%;" type="email" placeholder="Hello@reallygreatsite.com" >
 </div>
 
 <div class="underline-border" style="margin-bottom: 1rem;display: flex; align-items: center;">
     <img style="width:34px; height:34px" src="image/global.png">
-<input style="border: none; width: 90%;" type="url" placeholder="www.reallygreatsite.com" required>
+<input style="border: none; width: 90%;" type="url" placeholder="www.reallygreatsite.com" >
 </div>
 <div style="display: flex;">
     <img style="width:34px; height:34px"  src="image/location.png">
     <h2 style="margin-left: 1.5rem;">123 Anywhere st., Any city, St 1234</h2>
 </div>
-<div style=" position: absolute; right: 32rem; bottom: 16rem;">
+<div style=" position: absolute; right: 10rem; bottom: 12rem;">
 <input class="submit-form" type="submit" value="My Inputs">
 </div>
         </form>
@@ -62,31 +62,35 @@
         <div>
             <form>
                 <div style="display: flex; flex-direction: column; margin-left: 0.6rem; margin-bottom: 2rem;">
-            <label style="font-size: 20px;">Theme Color</label>
-            <input id="save-color" type="color">
+            <label style="font-size: 20px;">Primary Color</label>
+            <input id="primary-color" type="color">
+            <label style="font-size: 20px;">Secondary color</label>
+                <input id="secondary-color" type="color">
+<label>Profile color</label>
+<input id="profile-color" type="color">
         </div>
-            <input id="username"style="width: 99%; border-radius: 4px; height: 40px; margin-bottom: 1rem; margin-left: 0.6rem;" type="text" placeholder="Username"required>
+            <input id="username"style="width: 99%; border-radius: 4px; height: 40px; margin-bottom: 1rem; margin-left: 0.6rem;" type="text" placeholder="Username">
 
             <div style="display: flex; margin-bottom: 1rem;">
-<div style="margin-left: 0.6rem; margin-right: 1rem;">
+<label style="margin-left: 0.6rem; margin-right: 1rem;">
     <img style="border-radius: 50%; width: 150px; height: 150px;" src="image/2c82a347c1e2191bba2ab9669be44d7b.jpg">
-<input style="width: 16px; height: 16px; " type="radio" required>
-</div>
+<input class="image" name="avatar" style="width: 16px; height: 16px; " type="radio" >
+</label>
 
-<div style="margin-right: 1rem;">
+<label style="margin-right: 1rem;">
     <img style="border-radius: 50%; width: 150px; height: 150px;" src="image/850e9fc333eac3e5e15908f3e2ee3d1e.jpg">
-    <input style="width: 16px; height: 16px; "  type="radio" >
-</div>
+    <input class="image" name="avatar" style="width: 16px; height: 16px; "  type="radio" >
+</label>
 
-<div style="margin-right: 1rem;">
+<label style="margin-right: 1rem;">
     <img style="border-radius: 50%; width: 150px; height: 150px;" src="image/f24d0cf4a2d0c50942b349f9a06d38fc.jpg">
-<input style="width: 16px; height: 16px; "  type="radio">
-</div>
+<input class="image" name="avatar" style="width: 16px; height: 16px; "  type="radio">
+</label>
 
-<div style="margin-right: 1rem;">
+<label for="avatar" style="margin-right: 1rem;">
     <img style="border-radius: 50%; width: 150px; height: 150px;" src="image/3269505566f802eeb7c29b9d3dd872bb.jpg">
-<input style="width: 16px; height: 16px; "  type="radio">
-</div>
+<input class="image" name="avatar" style="width: 16px; height: 16px; "  type="radio">
+</label>
 
 </div>
 
